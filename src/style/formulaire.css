@@ -1,0 +1,28 @@
+.formulaire {
+    margin: 17em 35em;
+    padding: 1em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px, 0px, 10px, 3px rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+}
+
+.formulaire > p {
+    margin: 1em;
+    text-align: center;
+}
+
+.formulaire > p > a{
+    text-decoration: none;
+    color: plum;
+}
+.send {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

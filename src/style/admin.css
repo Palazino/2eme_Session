@@ -1,0 +1,54 @@
+.admin {
+    margin: 10em 35em;
+    padding: 2em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px, 0px, 10px, 3px rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+}
+
+.buttonadmin {
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonadmin > h3 > a {
+    text-decoration: none;
+    color: rgb(38, 92, 102);
+    padding: 13px;
+    background: rgb(142, 219, 233);
+    border-radius: 1em;
+}
+
+.buttonadmin > h3 > a:hover{
+    color: rgb(142, 219, 233);
+    background: rgb(38, 92, 102);
+}
+
+.listeAdmin {
+    margin: 5em 35em;
+    padding: 1em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0px, 0px, 10px, 3px rgba(0, 0, 0, 0.7);
+    color: aliceblue;
+
+}
+
+.btnsupp {
+    text-decoration: none;
+}
+
+.btnadd {
+    text-decoration: none;
+    color: rgb(60, 175, 60);
+
+}

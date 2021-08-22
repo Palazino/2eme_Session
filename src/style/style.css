@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(/src/img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /*Nav*/
+nav{
+    background-color: rgba(2, 1, 12, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: white 0.5px solid;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+nav > div.menu > ul{
+    flex-direction: row;
+    display: flex;
+}
+
+nav > div.menu > ul > li{
+    padding: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: rgb(255, 255, 255);
+ }
+
+
+
+nav a:hover{
+    background: rgb(51, 182, 189);
+}
+
+
+/*news*/
+
+.news {
+    padding: 5rem;
+    
+}
+
+.news > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstnews {
+    text-align: center;
+    background-color: bisque;
+    height: 6rem;
+    width: 12rem;
+}
+
+.secondnews {
+    text-align: center;
+    background-color: rgb(235, 192, 99);
+    height: 3rem;
+    width: 12rem;
+}
+
+.thirdnews {
+    text-align: center;
+    background-color: rgb(247, 158, 56);
+    height: 3rem;
+    width: 12rem;
+}
+
+/*article et list categorie*/
+
+.corp {
+    display: flex;
+}
+
+.allart{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.art {
+    margin : 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.art > div {
+    color: aliceblue;
+    text-align: center;
+}
+
+.art > div > a{
+    text-decoration: none;
+    color: rgb(156, 237, 252);
+    text-align: center;
+}
+
+.imgArticle {
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: solid rgb(105, 226, 241);
+    object-fit: cover;
+}
+
+
+.listecategorie > a {
+    text-decoration: none;
+    display: flex;
+    width: 80%;
+    margin: 1em;
+    padding: 10px;
+    color: rgb(233, 255, 133);
+}
+
+.listecategorie > a:hover{
+    background: plum;
+    border-radius: 1em;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(2, 1, 12, 0.9);
+    border: white 0.5px solid;
+}
+
+footer > p{
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h3{
+    color: rgb(159, 168, 29);
+    text-align: center;
+}
+.Inclass{
+
+    display: flex;
+
+
+}
+h4{
+    color: white;
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+#imgArticle{
+    margin-left: 5rem;
+   
+    
+}
+.Commentaire{
+    margin-left: 45rem;
+}
+.Commentaire > p{
+    color: white;
+}
